@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Web Quiz</title>
+		<link rel="stylesheet" href="style.css">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="app.js"></script>
+	</head>
+	<body>
+		
+		<div id="question_wrapper">
+			<span class="question">Question #1: What is the previous version of HTML, prior to HTML5?</span><br>
+			<div id="answer_holder">
+				<input type="radio" name="option" class="option" value="0"><span class="answer">HTML4.9</span><br>
+				<input type="radio" name="option" class="option" value="1"><span class="answer">HTML4.01</span><br>
+				<input type="radio" name="option" class="option" value="2"><span class="answer">HTML4</span><br>
+				<input type="radio" name="option" class="option" value="3"><span class="answer">HTML4.1</span><br>
+			</div>
+			<div id="button_holder">
+				<input type="button" id="submit" value="Submit Answer"><span id="hint"></span>
+				<input type="button" id="retry_button" value="Try Again!">
+			</div>
+            <div class="feedback">
+                
+            </div>
+            <div class="btn_cont">
+            	<input type="button" id="continue" value="Continue">
+            </div>
+            
+
+
+		</div>
+
+
+		<div id="question_bar">
+			<p></p>
+		</div>
+		
+
+	</body>
+	
+</html>
